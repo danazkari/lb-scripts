@@ -1,0 +1,11 @@
+{
+  "name": "lb-scripts",
+  "version": "1.0.0",
+  "main": "lb-scripts.js",
+  "bin": "./lb-scripts.js",
+  "repository": {},
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.11.0"
+  }
+}
