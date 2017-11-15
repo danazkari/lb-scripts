@@ -22,7 +22,7 @@ module.exports = function(${modelInstance}) {
   remoteMethods.forEach(
     ({meta, methodObject}) => {
       Object.assign(${modelInstance}, methodObject);
-      $MODEL_INSTANCE.remoteMethod(meta.name, meta.options);
+      ${modelInstance}.remoteMethod(meta.name, meta.options);
     }
   );
 };
